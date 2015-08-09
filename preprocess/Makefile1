@@ -1,0 +1,2 @@
+test: ./test2.cpp ./NLPIR.h
+	 g++ test2.cpp  -o test -L. -lpthread -L../../lib/linux64 -lNLPIR -Wall -Wunused -O3 -DOS_LINUX  
